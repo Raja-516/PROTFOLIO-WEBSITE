@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body>
+  <header>
+    <div class="container" >
+      <h1 class="name">RAJA</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#blog">Blog</a>
+        <a href="resume.pdf" download class="btn">Resume</a>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="fade-in">
+        <h1>Hi, I'm <span class="highlight">RAJA</span></h1>
+        <p class="paratext">Aspiring Software Developer | Passionate About AI & Web Development</p>
+        
+        <div class="buttons">
+          <a href="#projects" class="button">View My Work</a>
+        </div>
+        
+        <div class="social-icons">
+          <a href="https://github.com/Raja-516" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/raja-akula-4339292a3" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-image-wrapper">
+      <img src="your-image.jpg" alt="Raja Profile" class="hero-image" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .fade-in {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: fadeInUp 0.8s forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+  
+<div class="container">
+  <section class="about" id="about">
+    <div class="fade-in-on-load">
+      <h2 class="abo">About Me</h2>
+      <hr>
+      <p class="paratext">
+        I'm a final-year B.Tech student with a strong passion for building responsive web applications, exploring AI innovations, and continuously learning new technologies. 
+        I enjoy solving real-world problems through code and have experience working on full-stack projects, collaborating in teams, and contributing to open-source.
+        I'm actively seeking opportunities to grow as a developer and make a meaningful impact in the tech industry.
+      </p>
+    </div>
+  </section>
+</div>
+
+
+
+  <div class="container">
+    <section id="projects" class="projects">
+  <div class="fade-in-on-load">
+    <h2 >Projects</h2>
+    <hr>
+    <div class="project-card">
+      <h3>Calculator App <a href="https://raja-516.github.io/New_Calculator/" target="_blank">🔗</a></h3>
+      <p>A Simple calculator that performs basic operations using HTML + CSS + JS </p>
+    </div>
+    <div class="project-card">
+      <h3>Todo List</h3>
+      <p>A webpage that perform the todo-app functionalities like "Adding a task","Deleting the task" ,"Completing the task" </p>
+    </div>
+    <div class="project-card">
+      <h3>Hotel Management System</h3>
+      <p>React + Node.js based hotel management system with check-in/out, payments, and more.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>GDG Event Website</h3>
+      
+      <p>GDG On Campus website featuring events, blogs, and community info.</p>
+    </div>
+  </div>  
+</section>
+  </div>
+  <!-- [Keep previous content above unchanged] -->
+<div class="container">
+  <section class="skills" id="skills">
+    <div class="fade-in-on-load">
+    <h2 class="abo">SKills</h2>
+    <hr>
+    <div class="skills-container">
+      <div class="skills-card">
+      <h3>TECHNICAL SKILLS</h3><p>  HTML5, CSS3</p>
+    </div>
+  <div class="skills-card">
+      <h3>COLLEGE COURSEWORK: </h3><p>Operating Systems, Computer Networks </p>
+    </div>
+  <div class="skills-card">
+      <h3>FRAMEWORKS: </h3><p> React JS, Node.js, Express </p>
+    </div>
+    <div class="skills-card">
+      <h3>TOOLS:</h3><p> GitHub, VS Code </p>
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+</div>
+
+<!-- display -->
+ 
+
+<!-- New Certificates Section -->
+ 
+<div class="container">
+<section id="certificates" class="certificates">
+      <h2>Certificates</h2>
+      <hr>
+      <div class="certificate-card">
+        <h3>Google Cloud Career Readiness</h3>
+        <p>Completed the GCCR program with practical labs and certifications.</p>
+      </div>
+      <div class="certificate-card">
+        <h3>Web Development Bootcamp</h3>
+        <p>Finished a 3-month hands-on course on full-stack web development.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Coding Skills  -->
+   <!-- Font Awesome CDN for HackerRank -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<div class="container">
+  <section id="problem" class="problem">
+    <h2>Problem Solving</h2>
+    <hr>
+
+    <div class="problem-card">
+      <h3>
+        
+        <span class="leetcode-icon">
+          🧠
+        </span>
+        LeetCode<a href="https://leetcode.com/u/23A35A0516/" target="_blank">🔗</a>
+      </h3>
+      <p>Solved 450+ problems which helped me understand Data Structures and Algorithms.</p>
+    </div>
+
+    <div class="problem-card">
+      <h3>
+        <i class="fab fa-hackerrank" style="color:#2EC866;"></i> HackerRank<a href="https://www.hackerrank.com/profile/Raja_516" target="_blank">🔗</a>
+      </h3>
+      <p>5⭐ in Python, 4⭐ in Problem Solving, and 3⭐ in SQL.</p>
+    </div>
+  </section>
+</div>
+
+  
+  
+  <!-- New Blog Section -->
+  <div class="container">
+  <section id="blog" class="blog">
+      <h2>Latest Blog Posts</h2>
+      <hr>
+      <div class="blog-post">
+        <h3>Why You Should Learn Web Development in 2025</h3>
+        <p>Discover how web dev skills can open doors in tech and beyond.</p>
+      </div>
+      <div class="blog-post">
+        <h3>Getting Started with React and Tailwind</h3>
+        <p>Learn how to build modern UIs with these popular tools.</p>
+      </div>
+    </section>
+  </div>
+  
+  <!-- Keep Contact and Footer below as is -->
+  
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="abo">Contact Me</h2>
+      <hr>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    
+    const toggle = document.getElementById('theme-toggle');
+    toggle.onclick = () => {
+      document.body.classList.toggle('dark');
+    };
+  </script>
+
+</body>
+</html>

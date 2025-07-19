@@ -1,0 +1,474 @@
+/* === Base Styles === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: black;
+    color: #f4f4f4;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  .name{
+    color:#50c1f2
+  }
+
+
+
+.container.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.highlight {
+  color: #00ff88;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00ff88;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00ff88;
+}
+
+.hero-image {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* === Header === */
+  header {
+    background: #1e1e2f;
+    color: #1fe934ea;
+    padding: 1rem 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+  }
+  
+  header nav a,
+  header nav .btn {
+    color: #53bff9;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  header .btn {
+    padding: 6px 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+  }
+  
+  #theme-toggle {
+    margin-left: 15px;
+    padding: 4px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  /* === Hero === */
+  
+  
+  .hero {
+    
+    display: flex;
+    justify-content: left;
+    
+    
+    height:70vh;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .hero-text {
+    width: 100%;
+    text-align: left;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-image {
+    width: 45%;
+   
+    max-width: 450px;
+    border-radius: 10px;
+  }
+  
+  .highlight {
+    color: rgb(242, 164, 29);
+  }
+
+  .paratext{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f4f4f4;
+  }
+  
+  /* === Sections === */
+  .about, .projects, .contact {
+    padding: 3rem 0;
+  }
+  
+  /* === Project Cards === */
+  .projects {
+    padding: 40px;
+  }
+  .projects h2{
+    color:#e5d349;
+  }
+  
+
+  .project-card {
+    background: black;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #e5d349;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: fadeIn 1s ease-in;
+    border-radius: 5px;
+  }
+.project-card h3{
+  color:#b9aa3cd4
+} 
+
+/* Apply a uniform hover effect to all card-like items */
+.project-card,
+.skills-card,
+.certificate-card,
+.problem-card,
+.blog-post {
+  transition: all 0.3s ease;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.project-card:hover,
+.skills-card:hover,
+.certificate-card:hover,
+.problem-card:hover,
+.blog-post:hover {
+  background-color: #2c2c2c;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.problem{
+    padding: 40px;
+  }
+
+  .problem h2{
+    color:#dc7740dd;
+  }
+  .problem-card {
+    background: black;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #dc7740dd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: fadeIn 1s ease-in;
+    border-radius: 5px;
+  }
+.problem-card h3{
+  color:#f09260
+}
+
+.skills{
+  padding: 40px; 
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  
+  vertical-align: middle;
+}
+.problem-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.skills h2{
+    color:#1123f1;
+  }
+.skills-card {
+    background: black;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #1123f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: fadeIn 1s ease-in;
+    border-radius: 5px;
+  }
+.skills-card h3{
+  color:#277dd8f8
+}
+.skills-container{
+  margin: 5px;
+  display: block;
+ 
+}
+ .coding{
+  padding:40px;
+
+ }
+
+  .fade-in-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-in-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* === Certificates === */
+.certificates {
+    padding: 40px;
+  }
+  .certificates h2{
+    color:#8a25c1d3;
+  }
+
+.certificate-card h3{
+  color:#c04cff;
+}
+
+  .certificate-card {
+    background: black;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #8a25c1d3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: fadeIn 1s ease-in;
+    border-radius: 5px;
+  }
+  
+  /* about */
+  .about {
+  padding: 3rem 2rem;
+  
+}
+
+
+.fade-in-on-load {
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInDown 1s ease forwards;
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  /* === Blog === */
+  .blog {
+    padding: 40px;
+  }
+  
+  .blog-post {
+    background: black;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-left: 4px solid #2ebeeaad;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    animation: fadeInUp 1s ease-in;
+    border-radius: 5px;
+  }
+   .blog h2{
+    color:#2ebeeaad;
+  }
+  .blog-post h3{
+    color:#4dbaf9;
+  }
+  
+  /* === Animations === */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* === Dark Mode Adjustments === */
+ body.dark .project-card{
+    background: #F4F4F4;
+    border-left-color:4px solid #1123f1 ;
+    color: #222;
+  }
+
+  body.dark .skills-card{
+    background: #f4f4f4;
+    border-left-color:4px solid #1123f1 ;
+    color: #222;
+  }
+  
+ body.dark .problem-card{
+    background: #f4f4f4;
+    border-left-color:4px solid #1123f1 ;
+    color: #222;
+  }
+
+  body.dark .certificate-card{
+    background: #f4f4f4;
+    border-left-color: 4px solid #16c85d;
+    color: #222;
+  }
+  body.dark .blog-post {
+    background: #f4f4f4;
+    border-left-color: 4px solid #d6f413;
+    color: #222;
+  }
+  body.dark .paratext{
+    color: #222;
+  }
+  
+  
+  /* === Contact Form === */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    background: #1e1e2f;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* === Footer === */
+  footer {
+    background: #1e1e2f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  /* === Dark Mode === */
+  body.dark {
+    background: #F4F4F4;
+    color: #222;
+  }
+  
+  body.dark header,
+  body.dark footer {
+    background: #1e1e2f;
+  }
+  body.dark .social-icons a{
+    color:black
+  }
+  body.dark .social-icons a:hover{
+    color:#ff6a6a
+  }
+  
+  body.dark .contact input,
+  body.dark .contact textarea {
+    background: #f4f4f4;
+    color: #222;
+    border: 1px solid #444;
+  }
+  
+  body.dark .contact button {
+    background: #444;
+  }
+  
+  /* === Responsive === */
+  @media (max-width: 768px) {
+    header .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav {
+      background-color: #0ba6f9;
+      margin-top: 10px;
+    }
+  
+    .hero h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  .abo{
+    color:#3848fb
+  }
+
+  
